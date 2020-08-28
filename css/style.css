@@ -1,0 +1,42 @@
+.logo {
+    width: 3rem;
+}
+.footer--bgc{
+    background-color: #f6f8ff;
+}
+.main--bgc{
+    background-color: #eef1fc;
+}
+img{
+    width: 50px!important;
+}
+.card--windows{
+    padding-top: 4rem!important;
+    
+}
+
+
+.container--title{
+    max-width: 768px;
+}
+@media (min-width: 768px){
+    .w-md-100{
+        width: 100%!important;
+    }
+}
+@media (min-width: 992px) {
+    .nav-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #597FE2;
+        margin: 0 auto;
+        -webkit-transition: width .1s;
+        transition: width .1s;
+    }
+
+    .nav-link:hover::after {
+        width: 40%;
+    }
+}
